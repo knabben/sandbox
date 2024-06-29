@@ -1,0 +1,11 @@
+apiVersion: showcase.corp.beer/v1alpha1
+kind: Demo
+metadata:
+  name: sample
+spec:
+  steps:
+    - description: "Create cluster with Kind"
+      command:
+        - docker
+        - exec
+        - 
